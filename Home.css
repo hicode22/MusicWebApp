@@ -389,7 +389,6 @@
   height: 88px;
   width: 88px;
   background-image: none;
-  color: rgb(41, 40, 112) !important;
   margin: 0 auto 0 0;
 }
 
@@ -419,7 +418,6 @@
   height: 88px;
   width: 88px;
   background-image: none;
-  color: rgb(41, 40, 112) !important;
   margin: 0 auto 0 0;
 }
 
@@ -452,6 +450,14 @@
   .u-section-4 .u-repeater-1 {
     grid-template-columns: repeat(3, calc(33.333333333333336% - 10px));
     min-height: 281px;
+  }
+
+  .u-section-4 .u-icon-2 {
+    color: rgb(41, 40, 112) !important;
+  }
+
+  .u-section-4 .u-icon-3 {
+    color: rgb(41, 40, 112) !important;
   }
 }
 

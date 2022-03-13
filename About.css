@@ -1,5 +1,6 @@
  .u-section-1 {
-  background-image: url("images/default-image-21.jpg");
+  background-image: url("images/default-image-25.jpg");
+  background-position: 50% 50%;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -182,5 +183,46 @@
   .u-section-2 .u-image-1 {
     width: 340px;
     height: 230px;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 595px;
+}
+
+.u-section-3 .u-image-1 {
+  width: 307px;
+  height: 307px;
+  margin: 117px auto 0 47px;
+}
+
+.u-section-3 .u-text-1 {
+  font-size: 1.875rem;
+  margin: -177px auto 60px;
+}
+
+.u-section-3 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-image-1 {
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-text-1 {
+    width: auto;
+    margin-right: 172px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-image-1 {
+    margin-top: 50px;
+    margin-left: auto;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-top: 0;
+    margin-right: auto;
   }
 }
